@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  border: none;
+  font-size: 1.8rem;
+}
+
+p,
+a {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* HEADER STARTED */
+
+header {
+  height: 50rem;
+  background-color: #000;
+  padding: 1rem 7%;
+}
+
+header a {
+  color: #fff;
+}
+
+header .navbar-tags {
+  height: 6rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+header .navbar-tags .logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .navbar-tags .logo img {
+  width: 2.5rem;
+}
+
+header .navbar-tags .navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+header .navbar-tags button {
+  padding: 1.3rem 3rem;
+  border-radius: 2.5rem;
+  background-color: #404040;
+  color: #fff;
+}
+
+/* HEADER END */
