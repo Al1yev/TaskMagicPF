@@ -57,12 +57,19 @@ h3 {
 }
 
 .theme h1 {
-  font-size: 10rem;
-  color: #dfdfdf;
+  font-size: 11rem;
+  color: #efefef;
 }
 
 .theme h2 {
   margin-top: -8rem;
+}
+
+.big-content {
+  padding: 2rem 8rem 4rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 8rem #ccc;
 }
 
 /* HEADER STARTED */
@@ -157,10 +164,6 @@ header .navbar-tags button {
   justify-content: center;
   row-gap: 5rem;
   column-gap: 2rem;
-  padding: 2rem 8rem 4rem;
-  border-radius: 2rem;
-  background-color: #fff;
-  box-shadow: 0 0 0.3rem #aaa;
 }
 
 .container .about .social-n {
@@ -171,3 +174,52 @@ header .navbar-tags button {
 }
 
 /* ABOUT FINISHED */
+
+/* EXPERIENCE STARTED */
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.experience .e-pages {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience .e-pages .page {
+  border: 1px solid #000;
+  padding: 1rem;
+  text-align: center;
+}
+
+.experience .e-pages .first {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.experience .e-pages .last {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.experience .e-pages .active {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.experience .e-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* EXPERIENCE FINISHED */
