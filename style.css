@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
-  text-decoration: none;
 }
 
 html {
@@ -342,3 +341,54 @@ header .navbar-tags button {
 }
 
 /* FAQ FINISHED */
+
+/* COURSE STARTED */
+
+.course {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: center;
+}
+
+.course .c-content {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 4rem;
+}
+
+.course .c-content .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course .c-content .left-side div {
+  display: flex;
+  gap: 3rem;
+}
+.course .c-content .left-side div img {
+  width: 3.5rem;
+}
+
+.course .c-content .right-side {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 4rem;
+}
+
+.course .c-content .line {
+  grid-column: 1 / span 2;
+  border-top: 1px solid #aaa;
+  margin: 4rem 0;
+}
+
+.course .c-content .bottom-side {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+/* COURSE FINISHED */
