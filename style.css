@@ -282,3 +282,36 @@ header .navbar-tags button {
 }
 
 /* SESSIONS FINISHED */
+
+/* MASTERS STARTED */
+
+.masters {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+}
+
+.masters .m-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.masters .m-cards .m-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.masters .m-cards .m-card p {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.masters .m-cards img {
+  width: 80%;
+}
+
+/* MASTERS FINISHED */
