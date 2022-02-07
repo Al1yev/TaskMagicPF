@@ -91,14 +91,14 @@ header .navbar-tags {
   align-items: center;
   color: #fff;
 }
-header .navbar-tags .logo {
+.logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 1rem;
 }
 
-header .navbar-tags .logo img {
+.logo img {
   width: 2.5rem;
 }
 
@@ -633,3 +633,29 @@ header .navbar-tags button {
 }
 
 /* SCHEDULE FINiSHED */
+
+/* FOOTER STARTED */
+
+footer {
+  width: 100%;
+  padding: 3rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .social-ntw {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+footer .social-ntw img {
+  width: 3rem;
+}
+
+footer .logo img {
+  width: 4rem;
+}
+
+/* FOOTER FINiSHED */
