@@ -20,7 +20,7 @@ button {
 }
 
 .main-btn {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   font-weight: bold;
   padding: 2rem 10rem;
   background-color: #f46632;
@@ -57,7 +57,7 @@ h3 {
 
 .theme h1 {
   font-size: 11rem;
-  color: #efefef;
+  color: #ccc;
 }
 
 .theme h2 {
@@ -378,6 +378,7 @@ header .navbar-tags button {
   text-align: center;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   padding: 5rem 4rem;
 }
 
@@ -553,3 +554,82 @@ header .navbar-tags button {
 }
 
 /* PROJECTS FINiSHED */
+
+/* SCHEDULE STARTED */
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: center;
+  background-color: #eee;
+  padding: 4rem;
+}
+
+.schedule .secont-row {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.schedule .secont-row .mid {
+  display: flex;
+}
+
+.schedule .secont-row .mid .circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.schedule .secont-row .mid .unbold {
+  background-color: #eee;
+  border: 5px solid #000;
+}
+
+.schedule .secont-row .mid .lines {
+  width: 30rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule .secont-row .mid .lines .line {
+  border-bottom: 5px solid #000;
+  width: 100%;
+}
+
+.schedule .third-row {
+  display: flex;
+  justify-content: space-between;
+  width: 80rem;
+}
+
+.schedule .third-row .date {
+  padding: 1.5rem 3rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.schedule .fourth-row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.schedule .fourth-row div {
+  padding: 1rem 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.schedule .fourth-row button {
+  padding: 2rem 6rem;
+}
+
+/* SCHEDULE FINiSHED */
