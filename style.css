@@ -458,3 +458,98 @@ header .navbar-tags button {
 }
 
 /* REQUEST FINISHED */
+
+/* PROJECTS STARTED */
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  row-gap: 8rem;
+}
+
+.projects .theme {
+  grid-column: 1 / span 2;
+}
+
+.projects .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.projects .left-side .p-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projects .left-side .p-section .true {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projects .left-side .p-section img {
+  width: 3rem;
+}
+
+.projects .left-side .p-theme {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.projects .left-side .p-theme .circle {
+  width: 4rem;
+  height: 4rem;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.projects .left-side .next-btn {
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  align-self: flex-start;
+  background-color: #eee;
+}
+
+.projects .right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.projects .right-side .back-react {
+  position: relative;
+  width: 40rem;
+  height: 30rem;
+  background-color: #eee;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+
+.projects .right-side .back-react .front-react {
+  position: absolute;
+  width: 20rem;
+  height: 40rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 8rem #ccc;
+  transform: translate(50%, 10rem);
+}
+
+.projects .right-side .selectors {
+  width: 40rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects .right-side .selectors .select-btn {
+  padding: 1rem 2rem;
+  border: 1px solid #000;
+  border-radius: 1rem;
+}
+
+/* PROJECTS FINiSHED */
